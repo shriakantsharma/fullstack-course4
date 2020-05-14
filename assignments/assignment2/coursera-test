@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursera test</title>
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+         @media (min-width:1200px){
+            #p1{
+                width: 70%;
+                height: 40%;
+
+            }
+            #p2{
+                width: 70%;
+                height: 70%;
+            }
+            #p3{
+                width: 70%;
+                height: 70%;
+            }
+         }
+         @media (min-width:1200px){
+            #p1{
+                width: 40%;
+                height: 40%;
+            }
+            #p2{
+                width: 40%;
+                height: 40%;
+            }
+            #p3{
+                width: 40%;
+                height: 40%;
+            }
+         }
+        #p1{
+            height: 200px;
+            width: 250px;
+            margin: 30px;
+            padding: 12px;
+            border: 2px solid blue;
+        }
+        #p2{
+            width: 250px;
+            padding: 12px;
+            border-bottom: 50px;
+            border: 2px solid black;
+            margin: 30px;
+            height: 200px;
+            position: center;
+        }
+        #p3{
+            width: 250px;
+            display: flex;
+            padding: 12px;
+            border-bottom: 50px;
+            border: 2px solid black;
+            margin: 30px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body style="display: flex;">
+    <p id="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur eum aliquam incidunt eius dolor quae perspiciatis ipsam minus, quos ex, asperiores natus velit facere veniam harum similique illo hic accusamus!</p>
+   <div>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A temporibus illo fugiat sapiente necessitatibus fuga officia facilis. Temporibus, amet. Aut, harum quod. Aliquid doloribus vel voluptatibus quisquam excepturi magnam fugit?</p>
+   </div>
+   <div>
+    <p id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt quibusdam necessitatibus ex ratione quod, blanditiis vel rerum accusamus voluptate maiores! Quo, delectus libero! Voluptas perspiciatis numquam itaque debitis nam.</p>
+    </div>
+</body>
+</html>
